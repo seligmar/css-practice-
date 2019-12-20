@@ -1,3 +1,29 @@
-div {
+#body {
   color: beige;
+  background-color: #50b8e7;
+}
+
+#root {
+  color: green;
+  text-align: center;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /* display: inline-block; */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+p {
+  /* color: green; */
+  text-align: center;
 }
