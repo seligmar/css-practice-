@@ -1,6 +1,6 @@
 #body {
   color: beige;
-  background-color: #50b8e7;
+  background-color: goldenrod;
 }
 
 #root {
@@ -23,6 +23,14 @@
     transform: rotate(360deg);
   }
 }
+
+#rootsToo {
+  color: palevioletred;
+  text-align: center;
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
+
 p {
   /* color: green; */
   text-align: center;

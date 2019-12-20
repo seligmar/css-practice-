@@ -1,6 +1,13 @@
-var H1 = document.querySelector('#root')
+var h3 = document.querySelector('#root')
 
-H1.addEventListener('click', e => {
-  e.preventDefault
-  H1.innerText = 'This here'
+h3.addEventListener('click', e => {
+  if (h3.id === 'root') {
+    h3.id = 'rootsToo'
+    h3.innerHTML = `<p>It no longer spins!</p>`
+  }
+  // &&
+  else {
+    h3.id = 'root'
+    h3.innerText = 'It spins!'
+  }
 })
